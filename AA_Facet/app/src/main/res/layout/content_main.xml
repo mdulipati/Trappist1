@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="trappist.aa.com.aa_facet.MainActivity"
+    tools:showIn="@layout/app_bar_main"
+    android:background="@drawable/seatmap_notop">
+
+    <!--<ImageView-->
+        <!--android:id="@+id/Row31_v1"-->
+        <!--android:layout_width="386dp"-->
+        <!--android:layout_height="129dp"-->
+        <!--android:adjustViewBounds="true"-->
+        <!--android:background="@color/colorPrimaryDark"-->
+        <!--android:backgroundTint="@color/colorPrimaryDark"-->
+        <!--android:cropToPadding="false"-->
+        <!--android:paddingLeft="10dp"-->
+        <!--android:paddingRight="10dp"-->
+        <!--android:src="@drawable/row31_v2"-->
+        <!--tools:layout_editor_absoluteX="-1dp"-->
+        <!--tools:layout_editor_absoluteY="350dp" />-->
+
+    <ImageSwitcher
+        android:id="@+id/RowSwitcher"
+        android:layout_width="0dp"
+        android:layout_height="144dp"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintBottom_creator="1"
+        android:layout_marginStart="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintRight_toRightOf="parent"
+        tools:layout_constraintLeft_creator="1"
+        android:layout_marginBottom="11dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        app:layout_constraintHorizontal_bias="0.0" />
+
+
+</android.support.constraint.ConstraintLayout>
